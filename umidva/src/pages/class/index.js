@@ -15,6 +15,9 @@ export default class Index extends Component {
           <List.Item>
             <Link to="/class/async/async">async</Link>
           </List.Item>
+          <List.Item>
+            <Link to="/class/modal/modal">modal</Link>
+          </List.Item>
         </List>
       </>
     );
