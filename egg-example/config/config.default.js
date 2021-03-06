@@ -18,6 +18,22 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+
+  //csrf关闭和开启
+  config.security = {
+    csrf:{
+      enable: false
+    }
+  }
+  config.view ={
+    mapping:{
+      '.html':'ejs'
+    }
+  }
+  config.ejs = {
+
+  }
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
