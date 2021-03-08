@@ -1,5 +1,5 @@
 module.exports = {
-  set token(token){
-    this.set('token',token)
+  set token(token) {
+    this.set('token', token);
   }
-}
+};

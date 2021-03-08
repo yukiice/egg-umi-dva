@@ -1,5 +1,5 @@
 module.exports = {
-get token(){
-  console.log('herder',this.header);
-}
-}
+  get token() {
+    console.log('herder', this.header);
+  }
+};
