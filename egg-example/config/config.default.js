@@ -16,7 +16,19 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1614951406021_2432';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['httpLog'];
+
+
+  //session设置
+  config.session = {
+
+  }
+
+
+  //auth处理
+  config.auth  ={
+    exclude:['/home','/user','/login','logout']
+  }
 
 
   //csrf关闭和开启
