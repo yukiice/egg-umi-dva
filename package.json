@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "egg-mysql": "^3.0.0"
+    "egg-mysql": "^3.0.0",
+    "react-icons": "^4.2.0",
+    "umi": "^3.4.2"
   }
 }
