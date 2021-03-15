@@ -1,7 +1,5 @@
 import { IRouteComponentProps } from 'umi'
 import { MenuBar } from '@/components';
-// bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
 interface StringArray {
   [index: number]: string;
 }
